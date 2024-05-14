@@ -20,6 +20,7 @@ public class Player_life : MonoBehaviour
         if (collision.gameObject.CompareTag("trap"))
         {
             Die();
+	    RestartLevel();
         }
 	}
     private void Die()
